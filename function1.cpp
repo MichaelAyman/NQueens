@@ -1,6 +1,6 @@
-#include <iostream>
+#include "funtion1.h"
 
-using namespace std;
+#define N 8
 
 void printBoard(int board[N][N]) {
     for (int i = 0; i < N; i++) {
@@ -45,3 +45,4 @@ bool checkSolution() {
     }
     printBoard(board);
     return true;
+}
